@@ -7,7 +7,7 @@ app_key=''
 
 dog = Dogapi::Client.new(api_key, app_key)
 
-monitorname_pattern = /Project Name/
+monitor_name_pattern = /Project Name/
 partial_query_pattern = /avg(foo)/
 partial_query_replacement = 'avg(bar)'
 
